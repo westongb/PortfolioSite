@@ -1,0 +1,191 @@
+.navigationbar{
+    background-color: #363321 ;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 5px;
+    margin-left: -5px;
+    padding-right: 5px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 180%;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+a:hover {
+    color: wheat;
+}
+
+.title{
+    margin-left: 5%;
+    width: 70%;
+}
+
+.name{
+    margin-top: 8px;
+    margin-bottom: -10px;
+    padding-bottom: -20px;
+    color: white;
+
+}
+
+.job{
+    margin-bottom: -20px;
+    padding-bottom: -20px;
+    color: white;
+}
+
+.navlink{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.portrait{
+    height: 800px;
+    margin-left: 30%;
+}
+
+.aboutMe{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.myImage{
+    height: 500px;
+    margin-left: 5%;
+    border-radius: 20px;
+}
+.description{
+    width: 50%;
+}
+
+.sectionBreak{
+    height: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.resumeSection{
+    display: flex;
+    margin-left: 20%;
+}
+
+.downloadresume{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  
+
+}
+
+.downloadButton{
+    margin-left: 45%;
+}
+
+.resume{
+    display: flex;
+    height: 600px;
+    width: 400px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+}
+
+.resumeText{
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+.projectTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.projectBreak{
+    height: 100px;
+}
+
+.projectList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.linkButton{
+    border-radius: 20px;
+}
+
+.displaySites{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.displaySites:hover{
+    background-color: wheat;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #363321;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+.footer{
+    height: 100px;
+}
