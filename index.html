@@ -19,25 +19,42 @@
         <a href="#projects" class="navlink">Projects</a>
     </nav>
 </div>
+
+<script>
+
+window.addEventListener('resize', function () { 
+  "use strict";
+  window.location.reload(); 
+});
+
+function openResume(){
+
+}
+
+
+</script>
 <img class="portrait" src="./images/Wesons Clear Small.png"/>
-<div class="sectionBreak"></div>
-<div id="aboutMe" class="aboutMe">
+<br />
+<div id="aboutMe"  class="sectionBreak"></div>
+<div  class="aboutMe">
     <div class="description">
     <h1>About</h1>
     <p>here is where I put writing about myself and how awesome I am. All the reasons why they should hire me. </p>
     </div>
     <img class="myImage" src="./images/Wesons Clear Small.png"/>
 </div>
-<div class="sectionBreak"></div>
-<div id="resumeSection" class="resumeSection">
+<div id="resumeSection" class="sectionBreak"></div>
+<div  class="resumeSection">
     <div class="downloadresume">
-    <iframe class="resume" src="./images/resume.pdf"></iframe>
-    <form method="get" action="./images/resume.pdf">
-        <button class="downloadButton" type="submit">Download!</button>
+    
+    <form method="get" action="./images/resume (2).pdf">
+     <iframe class="resume" href="images/resume (2).pdf" src="./images/resume (2).pdf"> </iframe>
+     <a href="images/resume (2).pdf" target="images/resume (2).pdf"></a>
+     <button class="downloadButton" type="submit">Download</button>
      </form>
     </div>
-    <div class="resumeText">
-        <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</h3>
+    <div class="resumeTextBox">
+        <h3 class="resumeText" >It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</h3>
     </div>
 </div>
 <div class="sectionBreak"></div>
@@ -50,39 +67,41 @@
     <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="./images/KingoftheKingdom.PNG" alt="Avatar" style="width:300px;height:300px;">
+            <img class="websiteImage" src="./images/KingoftheKingdom.PNG" alt="Avatar" >
           </div>
           <div class="flip-card-back">
-            <h1>King of the Kingdom</h1> 
-            <p>Full Stack Application</p> 
-            <p>MERN Stack</p>
-            <a href='http://king-of-the-kingdom.herokuapp.com/'>http://king-of-the-kingdom.herokuapp.com/</a>
+            <h1 class="websiteName">King of the Kingdom</h1> 
+            <p class="websiteLink">Full Stack Application</p> 
+            <p class="websiteLink">MERN Stack</p>
+            <a class="websiteLink" href='http://king-of-the-kingdom.herokuapp.com/'>http://king-of-the-kingdom.herokuapp.com/</a>
             <br>
-            <a href="https://github.com/westongb/roundtable2">Github Repo</a>
+            <a class="websiteLink" href="https://github.com/westongb/roundtable2">Github Repo</a>
           </div>
         </div>
       </div>
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="./images/FindyourJoy.PNG" alt="Avatar" style="width:300px;height:300px;">
+            <img class="websiteImage" src="./images/FindyourJoy.PNG" alt="Avatar" >
           </div>
           <div class="flip-card-back">
-            <h1>John Doe</h1> 
-            <p>Architect & Engineer</p> 
-            <p>We love that guy</p>
-          </div>
+            <h1 class="websiteName">Finding Your Joy Coaching</h1> 
+            <p class="websiteLink">Life Coach Company</p> 
+            <p class="websiteLink">Wix Website</p> 
+            <a class="websiteLink" href='https://www.findingyourjoycoaching.com/'>https://www.findingyourjoycoaching.com/</a>
+            </div>
         </div>
       </div>
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="./images/VPS.PNG" alt="Avatar" style="width:300px;height:300px;">
+            <img class="websiteImage" src="./images/VPS.PNG" alt="Avatar" >
           </div>
           <div class="flip-card-back">
-            <h1>John Doe</h1> 
-            <p>Architect & Engineer</p> 
-            <p>We love that guy</p>
+            <h1 class="websiteName">Valkyrie Podcast Solutions</h1> 
+            <p class="websiteLink">Podcast Production Company</p> 
+            <p class="websiteLink">Wix Website</p>
+            <a class="websiteLink" href='https://www.valkyriepodcastsolutions.com/'>https://www.valkyriepodcastsolutions.com/</a>
           </div>
         </div>
       </div>
