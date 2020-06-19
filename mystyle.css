@@ -1,15 +1,17 @@
 .navigationbar{
-    background-color: #363321 ;
+    background: linear-gradient( to left,  #423f26, #363321) ;
     height: 70px;
     display: flex;
     width: 100%;
     border-radius: 10px;
     padding-left: 5px;
     margin-left: -5px;
-    padding-right: 5px;
+    padding-right: 0px;
+   
     position: sticky;
     position: -webkit-sticky;
     top: 0px;
+    z-index: 3;
 }
 
 h1{
@@ -30,12 +32,14 @@ a{
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
-    font-size: 180%;
-    color: white;
+    font-size: 160%;
+    color: rgb(103, 170, 218);
+    margin-right: -15px;
+    width: 35%;
 }
 
 a{
-    color: white;
+    color: rgb(103, 170, 218);
 }
 
 a:hover {
@@ -51,41 +55,82 @@ a:hover {
     margin-top: 8px;
     margin-bottom: -10px;
     padding-bottom: -20px;
-    color: white;
+    color: rgb(103, 170, 218);
 
 }
 
 .job{
     margin-bottom: -20px;
     padding-bottom: -20px;
-    color: white;
+    color: rgb(103, 170, 218);
 }
 
 .navlink{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.portrait{
-    height: 800px;
-    margin-left: 30%;
+.myVideo{
+   height: 800px;
+   width: 100%;
+   margin-bottom: -50px;
 }
 
 .aboutMe{
     display: flex;
-    padding-top: 20px;
+    height: 800px;
+    padding-top: 200px;
     padding-bottom: 20px;
     padding-left: 15%;
     padding-right: 15%;
-    background-color: wheat;
+   
+    background: linear-gradient( to left,wheat, #dfc26e);
     border-radius: 10px;
+    margin-top: -50px;
 }
+
+.comment1{
+    display: none;
+    position: absolute;
+    left:41%;
+    top: 137%;
+}
+
+.comment1Bubble{
+ 
+    height: 80px;
+    width: 300px;
+}
+
+.comment1Text{
+    display: block;
+    position: absolute;
+    left:25%;
+    top: 14%;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px; */
+}
+
+.myImage:hover + .comment1{
+    display: block;
+}
+
+
 
 .myImage{
     height: 500px;
     margin-left: 5%;
     border-radius: 20px;
 }
+
+.aboutText{
+   
+    font-size: 18px;
+    margin-right: 10%;
+}
+
 .description{
+    margin-top: -20px;
     width: 50%;
 }
 
@@ -97,7 +142,9 @@ a:hover {
 
 .resumeSection{
     display: flex;
+    margin-top: 150px;
     margin-left: 20%;
+    height: 600px;
 }
 
 .downloadresume{
@@ -105,11 +152,11 @@ a:hover {
     flex-direction: column;
     justify-items: center;
    
-
 }
 
 .downloadButton{
-    margin-left: 30%;
+    margin-left: 5%;
+    width: 300px;
  
 
 }
@@ -129,27 +176,55 @@ a:hover {
     margin-top: 50px;
     margin-left: 10%;
     font-size: 20%;
+    animation-duration: 1s;
+    animation-name: slidein;
+
 }
 
 .resumeText{
     font-size: 25px;
 }
 
+
+@keyframes come-in {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  
+
+.projects{
+    background-color: rgba(12, 124, 204, 0.544);
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
 .projectTitle{
     display: flex;
     justify-content: center;
+    font-size: 75px;
+   
 }
 
 .projectBreak{
     height: 100px;
+   
 }
 
 .projectList{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+   
 }
-
 
 
 .linkButton{
@@ -170,27 +245,32 @@ a:hover {
 
 .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     perspective: 1000px;
     border-radius: 25px;
   }
 
 
   .websiteName{
-    color: wheat;
+    color:#363321;
     margin-top: 5%;
+    word-wrap: break-word;
     
 }
 
 .websiteLink{
+    font-size: 25px;
     margin-bottom: 0px;
-    color: wheat;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #363321;
+    word-wrap: break-word;
 }
 
   .websiteImage{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 25px;
 }
   
@@ -219,14 +299,14 @@ a:hover {
   }
   
   .flip-card-front {
-    background-color: #bbb;
+    background-color: wheat;
     color: black;
     border-radius: 25px;
   }
   
   .flip-card-back {
-    background-color: #363321;
-    color: white;
+    background-color: wheat;
+    color: black;
     transform: rotateY(180deg);
     border-radius: 25px;
   }
@@ -235,26 +315,123 @@ a:hover {
     height: 100px;
 }
 
+.chat{
+    display: flex;
+    justify-content: center;
+    font-size: 85px;
+    color: #423f26;
+    text-decoration: underline ;
+
+}
+
+.contactUs{
+    display: flex;
+    justify-content: center;
+       align-items: center;
+    
+}
+
+.contactForm{
+    height: 40vh;
+    width: 500px;
+    border: #423f26;
+    border-style: solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+}
+
+.arrowImage{
+    position: absolute;
+    
+    transform: rotate(90deg);
+    width: 50px;
+
+}
+
+.btn{
+    position: fixed;
+    top: 90%;
+    left: 2%;
+    background-color: darkgray;
+}
+
+.degree{
+    width: 20px;
+}
+
+.cougers{
+    display: block;
+    position: absolute;
+    left:20%;
+    top: 140%;
+    width: 0px;
+}
+
+.degree:hover + .cougers{
+    cursor: pointer;
+    display: block;
+    width: 200px;
+}
+
+
+@media(max-width:1600px){
+    .aboutText{
+        font-size: 15px;
+        margin-left: -20px;
+    }
+
+}
+
 
 @media  (max-width: 1250px){
 
+
+    .name{
+    font-size: 22px;
+    margin-bottom: -5px;
+    padding-bottom: -10px;
+    }
+    
+    .job{
+        font-size: 17px;
+    }
+    .description{
+        margin-top: -90px;
+        margin-left: -30px;
+    }
+
+    .aboutText{
+        font-size: 14px;
+        margin-left: -30px;
+    }
+
     .resumeText{
+        margin-top: -20px;
         font-size: 15px;
+     
     }
 
     .resume{
         display: flex;
-        height: 300px;
-        width: 200px;
+        height: 500px;
+        width: 300px;
         justify-content: center;
-        margin-left: 10%;
+        margin-left: -10%;
         margin-right: 10%;
       
     }
 
     .myImage{
-        height: 250px;
-        width: 200px;
+        height: 400px;
+        width: 300px;
+    }
+
+    .projectTitle{
+        font-size: 45px;
+       
     }
 
     .displaySites{
@@ -262,6 +439,7 @@ a:hover {
         width: 200px;
         object-fit: cover;
         border-radius: 20px;
+
     }
 
     .flip-card {
@@ -269,17 +447,23 @@ a:hover {
         width: 200px;
         height: 200px;
         perspective: 800px;
+      
       }
 
       .websiteName{
-          font-size: 25px ;
-          color: wheat;
+          font-size: 25px;
+          
+      }
+
+      .downloadButton{
+          margin-left: -10%;
       }
 
       .websiteLink{
-          font-size: 12px;
+          font-size: 10px;
+          margin-left: 10px;
           margin-bottom: 0px;
-          color: wheat;
+                  
       }
 
       .websiteImage{
@@ -288,8 +472,6 @@ a:hover {
       }
 
       .flip-card-front {
-        background-color: #bbb;
-        color: black;
         width: 200px;
         height: 200px;
       }
@@ -303,4 +485,38 @@ a:hover {
         backface-visibility: hidden;
       }
 
+      
+    
 }
+
+@media(max-width:810px){
+    .aboutText{
+        font-size: 12px;
+        margin-left: -20px;
+    }
+    
+    .description{
+        margin-top: -100px;
+        margin-left: -30px;
+    }
+
+    .myImage{
+        height: 300px;
+        width: 250px;
+    }
+
+}
+
+@media(max-width: 650px){
+    .aboutText{
+        font-size: 10px;
+        margin-left: -20px;
+    }
+
+    .myImage{
+        height: 250px;
+        width: 200px;
+    }
+
+}
+
