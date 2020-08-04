@@ -1,5 +1,5 @@
 .navigationbar{
-    background: linear-gradient( to left,  #423f26, #363321) ;
+    background: linear-gradient( to left,  #6C4F3A, #48240A) ;
     height: 70px;
     display: flex;
     width: 100%;
@@ -33,13 +33,13 @@ a{
     justify-content: space-evenly;
     margin-top: 20px;
     font-size: 160%;
-    color: rgb(103, 170, 218);
+    color: rgb(86, 135, 248);
     margin-right: -15px;
     width: 35%;
 }
 
 a{
-    color: rgb(103, 170, 218);
+    color: #007bff;
 }
 
 a:hover {
@@ -55,14 +55,14 @@ a:hover {
     margin-top: 8px;
     margin-bottom: -10px;
     padding-bottom: -20px;
-    color: rgb(103, 170, 218);
+    color:  #007bff;
 
 }
 
 .job{
     margin-bottom: -20px;
     padding-bottom: -20px;
-    color: rgb(103, 170, 218);
+    color: #007bff;
 }
 
 .navlink{
@@ -201,7 +201,7 @@ a:hover {
   
 
 .projects{
-    background-color: rgba(12, 124, 204, 0.544);
+    background-color: #007bff;
     margin-bottom: 100px;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -264,7 +264,7 @@ a:hover {
     margin-bottom: 0px;
     margin-left: 10px;
     margin-right: 10px;
-    color: #363321;
+    color: #007bff;
     word-wrap: break-word;
 }
 
@@ -375,6 +375,50 @@ a:hover {
     display: block;
     width: 200px;
 }
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+    
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .github {
+    background: #bb0000;
+    color: white;
+  }
+
+  .email {
+    background: #dd4b39;
+    color: white;
+  }
+
 
 
 @media(max-width:1600px){
