@@ -32,10 +32,12 @@ a{
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
     font-size: 160%;
     color: rgb(86, 135, 248);
     margin-right: -15px;
-    width: 35%;
+    width: 45%;
 }
 
 a{
@@ -258,6 +260,12 @@ a:hover {
     word-wrap: break-word;
     
 }
+
+.websiteinfo{
+  
+
+}
+
 
 .websiteLink{
     font-size: 25px;
@@ -499,12 +507,19 @@ a:hover {
           
       }
 
+      .websiteinfo{
+        margin-top: -5px;
+        margin-bottom: -5px;
+        font-size: 15px;
+        
+    }
+
       .downloadButton{
           margin-left: -10%;
       }
 
       .websiteLink{
-          font-size: 10px;
+          font-size: 15px;
           margin-left: 10px;
           margin-bottom: 0px;
                   
