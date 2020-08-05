@@ -223,7 +223,7 @@ a:hover {
 
 .projectList{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-evenly;
    
 }
@@ -588,6 +588,20 @@ a:hover {
         width: 100%;
         margin-bottom: -50px;
      }
+     .projectList{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+       
+    }
+
+    .flip-card {
+        background-color: transparent;
+        width: 400px;
+        height: 400px;
+        perspective: 1000px;
+        border-radius: 25px;
+      }
 
 }
 
@@ -607,5 +621,20 @@ a:hover {
         width: 100%;
         margin-bottom: -50px;
      }
+
+     .projectList{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+       
+    }
+
+    .flip-card {
+        background-color: transparent;
+        width: 400px;
+        height: 400px;
+        perspective: 1000px;
+        border-radius: 25px;
+      }
 
 }
