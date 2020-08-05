@@ -6,8 +6,7 @@
     border-radius: 10px;
     padding-left: 5px;
     margin-left: -5px;
-    padding-right: 0px;
-   
+     
     position: sticky;
     position: -webkit-sticky;
     top: 0px;
@@ -32,12 +31,10 @@ a{
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
-    padding-right: 20px;
-    margin-right: 20px;
+    padding-right: 0px;
     font-size: 160%;
     color: rgb(86, 135, 248);
-    margin-right: -15px;
-    width: 45%;
+    width: 30%;
 }
 
 a{
@@ -80,7 +77,7 @@ a:hover {
 .aboutMe{
     display: flex;
     height: 800px;
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 20px;
     padding-left: 15%;
     padding-right: 15%;
@@ -113,9 +110,9 @@ a:hover {
     padding-right: 20px; */
 }
 
-.myImage:hover + .comment1{
+/* .myImage:hover + .comment1{
     display: block;
-}
+} */
 
 
 
@@ -127,7 +124,7 @@ a:hover {
 
 .aboutText{
    
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 10%;
 }
 
@@ -166,7 +163,7 @@ a:hover {
 .resume{
     display: flex;
     height: 600px;
-    width: 400px;
+    width: 450px;
     justify-content: center;
     margin-left: -10%;
     margin-right: -10%;
@@ -340,7 +337,7 @@ a:hover {
 }
 
 .contactForm{
-    height: 40vh;
+    height: 400px;
     width: 500px;
     border: #423f26;
     border-style: solid;
@@ -431,8 +428,13 @@ a:hover {
 
 @media(max-width:1600px){
     .aboutText{
-        font-size: 15px;
+        font-size: 16px;
         margin-left: -20px;
+    }
+
+    .title{
+        margin-left: 5%;
+        width: 60%;
     }
 
 }
@@ -453,18 +455,28 @@ a:hover {
     .description{
         margin-top: -90px;
         margin-left: -30px;
+        width: 60%;
+    }
+
+
+    .aboutMe{
+        padding-left: 25%;
+        padding-right: 10%;
+        margin-top: -50px;
     }
 
     .aboutText{
-        font-size: 14px;
+        font-size: 16px;
         margin-left: -30px;
     }
 
     .resumeText{
-        margin-top: -20px;
-        font-size: 12px;
+        margin-top: -40px;
+        font-size: 17px;
      
     }
+
+ 
 
     .resume{
         display: flex;
@@ -502,21 +514,21 @@ a:hover {
 
     .flip-card {
         background-color: transparent;
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
         perspective: 800px;
       
       }
 
       .websiteName{
-          font-size: 25px;
+          font-size: 30px;
           
       }
 
       .websiteinfo{
         margin-top: -5px;
         margin-bottom: -5px;
-        font-size: 15px;
+        font-size: 18px;
         
     }
 
@@ -525,20 +537,20 @@ a:hover {
       }
 
       .websiteLink{
-          font-size: 15px;
+          font-size: 18px;
           margin-left: 10px;
           margin-bottom: 0px;
                   
       }
 
       .websiteImage{
-          width: 200px;
-          height: 200px;
+          width: 300px;
+          height: 300px;
       }
 
       .flip-card-front {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
       }
 
 
@@ -550,11 +562,30 @@ a:hover {
         backface-visibility: hidden;
       }
 
+    .navLinks{
+        font-size: 18px;
+       width: 20%;
+    }
+    .title{
+        margin-left: 5%;
+        width: 50%;
+    }
       
     
 }
 
-@media(max-width:810px){
+
+@media  (max-width: 1080px){
+
+    .aboutText{
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media(max-width:820px){
     .aboutText{
         font-size: 12px;
         margin-left: -20px;
@@ -571,10 +602,45 @@ a:hover {
     }
     .projectList{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: space-evenly;
+        align-items: center;
        
     }
+
+    .flip-card{
+        margin-top: 20px;
+    }
+
+
+    .title{
+        margin-left: 5%;
+        width: 50%;
+    }
+
+    .resumeText{
+        margin-top: -45px;
+        font-size: 16px;
+    }
+
+    .resume{
+        margin-top: 10px;
+        width: 400px;
+        margin: auto;
+    }
+
+    .downloadButton{
+        margin-left: 10%;
+    }
+    
+.resumeSection{
+    margin-top: 150px;
+
+    margin-left: 13%;
+ 
+}
+
+
 
 }
 
@@ -598,6 +664,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    
        
     }
 
@@ -606,15 +673,35 @@ a:hover {
         width: 300px;
         height: 300px;
         perspective: 1000px;
+        margin-top: 20px;
         border-radius: 25px;
       }
 
       .resumeSection{
         display: flex;
-        flex-direction: column;
-        margin-top: 150px;
-        margin-left: 20%;
-        height: 600px;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0px;
+        margin-left: 0%;
+        height: 800px;
+    }
+
+    .resumeSection{
+        margin-top: 0px;
+    }
+
+    .resumeTextBox{
+        width: 80%;
+        margin-top: 00px;
+        font-size: 20%;
+        animation-duration: 1s;
+        animation-name: slidein;
+    
+    }
+
+    .resumeText{
+        width: 100%;
+        margin: auto;
     }
 
 }
@@ -641,6 +728,10 @@ a:hover {
         flex-direction: column;
        
        
+    }
+
+    .resumeSection{
+        margin-top: 0px;
     }
 
     .flip-card {
