@@ -184,7 +184,7 @@ a:hover {
 }
 
 .resumeText{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -462,7 +462,7 @@ a:hover {
 
     .resumeText{
         margin-top: -20px;
-        font-size: 15px;
+        font-size: 12px;
      
     }
 
@@ -569,6 +569,12 @@ a:hover {
         height: 300px;
         width: 250px;
     }
+    .projectList{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+       
+    }
 
 }
 
@@ -597,15 +603,23 @@ a:hover {
 
     .flip-card {
         background-color: transparent;
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         perspective: 1000px;
         border-radius: 25px;
       }
 
+      .resumeSection{
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        margin-left: 20%;
+        height: 600px;
+    }
+
 }
 
-@media(max-width: 450px){
+@media(max-width: 460px){
     .aboutText{
         font-size: 10px;
         margin-left: -20px;
@@ -625,7 +639,7 @@ a:hover {
      .projectList{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+       
        
     }
 
