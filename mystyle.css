@@ -72,7 +72,7 @@ a:hover {
     margin-right: 20px;
 }
 .myVideo{
-   height: 800px;
+   height: 600px;
    width: 100%;
    margin-bottom: -50px;
 }
@@ -486,6 +486,12 @@ a:hover {
        
     }
 
+    .myVideo{
+        height: 500px;
+        width: 100%;
+        margin-bottom: -50px;
+     }
+
     .displaySites{
         height: 200px;
         width: 200px;
@@ -577,5 +583,29 @@ a:hover {
         width: 200px;
     }
 
+    .myVideo{
+        height: 400px;
+        width: 100%;
+        margin-bottom: -50px;
+     }
+
 }
 
+@media(max-width: 450px){
+    .aboutText{
+        font-size: 10px;
+        margin-left: -20px;
+    }
+
+    .myImage{
+        height: 100px;
+        width: 80px;
+    }
+
+    .myVideo{
+        height: 300px;
+        width: 100%;
+        margin-bottom: -50px;
+     }
+
+}
