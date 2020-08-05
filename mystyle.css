@@ -41,7 +41,7 @@ a{
     color: #007bff;
 }
 
-a:hover {
+.navlink:hover {
     color: wheat;
 }
 
