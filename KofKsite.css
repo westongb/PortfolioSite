@@ -1,0 +1,175 @@
+.navigationbar{
+    background: linear-gradient( to left,  #6C4F3A, #48240A) ;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 5px;
+    margin-left: -5px;
+     
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+
+
+
+.firstSection{
+  margin: 0 10% 0 10%;
+    
+}
+
+
+.title{
+    margin-left: 5%;
+    width: 70%;
+}
+
+.name{
+    margin-top: 8px;
+    margin-bottom: -10px;
+    padding-bottom: -20px;
+    color:  #007bff;
+
+}
+
+.job{
+    margin-bottom: -20px;
+    padding-bottom: -20px;
+    color: #007bff;
+}
+
+.bannerImage{
+    
+    width: 90%;
+    height: 600px;
+    object-position: 0 20%;
+    object-fit: cover;
+    margin-left: 5%;
+      
+}
+
+.bannerText{
+     width: 80%;
+     margin-left: 10%;
+     margin-top: 100px;
+     font-size: 220%;
+     background-color: white;
+}
+
+.left-margin{
+    width: 30%;
+}
+
+.image-columns{
+    margin: 50px 5% 0 44%;
+    justify-content: center;
+    transition: 3s;
+     transition-timing-function: ease;
+}
+
+.image-column{
+    
+     height: 70%;
+    margin: 50px 0 50px 0;
+  display: flex;
+  
+}
+
+.columnImg{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-color: wheat;
+    margin: 0 -35px 0 -35px;
+    border-radius: 150px;
+    z-index: -1;
+   
+}
+
+.dividerspace{
+    height: 150px;
+}
+
+.columnText{
+    
+    margin-top: 5%;
+    padding: 0 0 0 0;
+    width: 0%;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      transition: width 3s;
+     transition-timing-function: ease;
+   
+  
+}
+
+.image-columns:hover{
+     margin: 50px 5% 0 15%;
+}
+
+.image-columns:hover .columnText{
+    width: 60%;
+    padding: 1% 2% 1% 2%;
+   border: solid black;
+   
+}
+
+.Title{
+  visibility: hidden;
+  transition-delay: 1s;
+
+margin: -2px 0 0 0;
+}
+
+.columnText p{
+   visibility: hidden;
+    transition-delay: 1s;
+ 
+   
+}
+
+.image-columns:hover h3{
+    visibility: visible;
+  
+}
+
+.image-columns:hover p{
+   visibility: visible;
+   
+}
+
+
+.two{
+    margin-left: 20%;
+    margin-right: -20%;
+}
+
+.one{
+    margin-left: -10%;
+}
+
+.three{
+    margin-left: -10%;
+}
+
+p{
+    font-size: small;
+}
+
+.timeLine{
+    position: absolute;
+    background-color: black;
+    height: 150vh;
+    width: 5px;
+    margin: 0 0 0 0;
+    transform: translate(40vw, -150vh);
+    z-index: -5;
+}
