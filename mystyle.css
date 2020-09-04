@@ -647,7 +647,7 @@ a{
 
 }
 
-@media(max-width: 650px){
+@media(max-device-width: 650px){
     .aboutText{
         font-size: 10px;
         margin-left: -20px;
@@ -709,7 +709,7 @@ a{
 
 }
 
-@media(max-width: 460px){
+@media(max-device-width: 460px){
     .aboutText{
         font-size: 10px;
         margin-left: -20px;
