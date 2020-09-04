@@ -558,6 +558,7 @@ a {
   }
 
   .description {
+      width: 100%;
     margin-top: -100px;
     margin-left: -30px;
   }
@@ -680,7 +681,7 @@ a {
 
   .icon-bar {
     position: fixed;
-    top: 40%;
+    top: 45%;
     width: 12%;
     height: 50vh;
     -webkit-transform: translateY(-50%);
