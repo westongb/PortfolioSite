@@ -647,7 +647,7 @@ a {
   .myImage {
     height: 500px;
     width: 450px;
-    transform: translateY(-120px);
+    
   }
   .projectList {
     display: flex;
