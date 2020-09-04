@@ -549,7 +549,7 @@ a {
 
   .aboutText {
     font-size: 12px;
-    margin-left: -20px;
+    margin-left: 0px;
   }
 
   .description {
@@ -604,12 +604,12 @@ a {
     .aboutMe{
         flex-direction: column-reverse;
         height: 1000px;
-        padding-left: 0;
+        padding-left: 20;
         padding-right: 0;
     }
   .aboutText {
     font-size: 18px;
-    margin-left: -20px;
+    margin-left: 20px;
     width: 80%;
   }
 
