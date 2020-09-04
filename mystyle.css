@@ -679,8 +679,8 @@ a {
 
   .icon-bar {
     position: fixed;
-    top: 50%;
-    width: 15%;
+    top: 40%;
+    width: 12%;
     height: 50vh;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
