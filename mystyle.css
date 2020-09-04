@@ -690,6 +690,10 @@ a {
   .icon-bar a {
     height: 20%;
   }
+
+  .icon-bar i {
+      height: 100%;
+  }
 }
 
 @media (max-device-width: 460px) {
