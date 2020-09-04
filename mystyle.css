@@ -424,7 +424,10 @@ a{
     color: white;
   }
 
-
+  .phone {
+    background: #14811d;
+    color: white;
+  }
 
 @media(max-width:1600px){
     .aboutText{
