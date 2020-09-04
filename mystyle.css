@@ -609,7 +609,7 @@ a {
 
     .aboutMe{
         flex-direction: column-reverse;
-        width: 100%;
+        width: 130%;
         height: 1000px;
         padding-left: 20;
         padding-right: 0;
