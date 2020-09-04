@@ -611,6 +611,7 @@ a {
     .description {
         width: 100%;
       margin-top: 0px;
+      margin-right: 5%;
       margin-left: -30px;
     }
 
@@ -623,9 +624,9 @@ a {
         padding-right: 0;
     }
   .aboutText {
-    font-size: 18px;
-    margin-left: 20px;
-    width: 80%;
+    font-size: 20px;
+    margin-left: 0px;
+    width: 100%;
   }
 
   .myImage {
