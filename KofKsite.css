@@ -86,7 +86,7 @@
   margin-top: 5%;
   padding: 0 0 0 0;
   width: 0%;
-  height: 100px;
+  height: 130px;
   background-color: white;
   border-radius: 50px;
 
@@ -110,13 +110,16 @@
 .Title {
   visibility: hidden;
   transition-delay: 1s;
-
+  font-size: 100%;
   margin: -2px 0 0 0;
+  font-weight: 700;
 }
 
 .columnText p {
   visibility: hidden;
   transition-delay: 1s;
+  font-size: 100%;
+  font-weight: 600;
 }
 
 .image-columns:hover h3 {
@@ -152,4 +155,8 @@ p {
   margin: 0 0 0 0;
   transform: translate(40vw, -150vh);
   z-index: -5;
+}
+
+.dividerspace2{
+  height: 25px;
 }
