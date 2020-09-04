@@ -596,7 +596,7 @@ a {
 
 @media (max-device-width: 650px) {
   .aboutText {
-    font-size: 14px;
+    font-size: 18px;
     margin-left: -20px;
   }
 
@@ -653,7 +653,7 @@ a {
   }
 
   .resumeText {
-    width: 100%;
+    width: 80%;
     margin: 0 10% 50px 10%;
   }
 
@@ -694,7 +694,7 @@ a {
 
 @media (max-device-width: 460px) {
   .aboutText {
-    font-size: 14px;
+    font-size: 18px;
     margin-left: -20px;
   }
 
