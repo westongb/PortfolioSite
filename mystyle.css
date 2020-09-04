@@ -632,7 +632,7 @@ a {
     }
 
   .aboutText {
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -647,7 +647,7 @@ a {
   .myImage {
     height: 500px;
     width: 450px;
-    transform: translateY(-150px);
+    transform: translateY(-120px);
   }
   .projectList {
     display: flex;
@@ -679,7 +679,9 @@ a {
   .downloadButton {
     margin-left: 10%;
   }
-
+.downloadresume{
+    height: 500px;
+}
   .resumeSection {
     margin-top: 150px;
 
@@ -704,7 +706,7 @@ a {
         padding-right: 0;
     }
   .aboutText {
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 0px;
     width: 100%;
   }
