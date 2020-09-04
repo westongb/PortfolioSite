@@ -603,10 +603,12 @@ a {
 
     .aboutMe{
         flex-direction: column-reverse;
+        height: 1000px;
     }
   .aboutText {
     font-size: 18px;
     margin-left: -20px;
+    width: 80%;
   }
 
   .myImage {
