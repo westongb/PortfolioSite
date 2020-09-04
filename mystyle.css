@@ -544,7 +544,7 @@ a {
 @media (max-width: 820px) {
 
     .aboutMe{
-        display: inline;
+        flex-direction: column-reverse;
     }
 
   .aboutText {
@@ -604,6 +604,8 @@ a {
     .aboutMe{
         flex-direction: column-reverse;
         height: 1000px;
+        padding-left: 0;
+        padding-right: 0;
     }
   .aboutText {
     font-size: 18px;
