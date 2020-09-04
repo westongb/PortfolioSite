@@ -543,6 +543,13 @@ a {
 
 @media (max-width: 820px) {
 
+    .myVideo {
+        height: 1000px;
+      
+      }
+
+
+
     .aboutMe{
         flex-direction: column-reverse;
         margin-right: 0px;
@@ -565,8 +572,8 @@ a {
   }
 
   .myImage {
-    height: 300px;
-    width: 250px;
+    height: 500px;
+    width: 450px;
     transform: translateY(-150px);
   }
   .projectList {
@@ -592,7 +599,7 @@ a {
 
   .resume {
     margin-top: 10px;
-    width: 400px;
+    width: 300px;
     margin: auto;
   }
 
