@@ -608,6 +608,12 @@ a {
 
 @media (max-device-width: 650px) {
 
+    .description {
+        width: 100%;
+      margin-top: 0px;
+      margin-left: -30px;
+    }
+
     .aboutMe{
         flex-direction: column-reverse;
         width: 100%;
