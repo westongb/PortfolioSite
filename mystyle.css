@@ -545,6 +545,8 @@ a {
 
     .aboutMe{
         flex-direction: column-reverse;
+        margin-right: 0px;
+        padding-right: 0px;
     }
 
   .aboutText {
