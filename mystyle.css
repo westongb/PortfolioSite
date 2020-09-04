@@ -617,7 +617,7 @@ a {
 @media (max-device-width: 820px) {
 
     .myVideo {
-        height: 1000px;
+        height: 400px;
       
       }
 
@@ -717,7 +717,7 @@ a {
   }
 
   .myVideo {
-    height: 800px;
+    height: 400px;
     width: 100%;
     margin-bottom: -50px;
   }
