@@ -542,6 +542,11 @@ a {
 }
 
 @media (max-width: 820px) {
+
+    .aboutMe{
+        display: inline;
+    }
+
   .aboutText {
     font-size: 12px;
     margin-left: -20px;
@@ -595,6 +600,10 @@ a {
 }
 
 @media (max-device-width: 650px) {
+
+    .aboutMe{
+        display: inline;
+    }
   .aboutText {
     font-size: 18px;
     margin-left: -20px;
