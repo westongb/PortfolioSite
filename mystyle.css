@@ -596,7 +596,7 @@ a {
 
 @media (max-device-width: 650px) {
   .aboutText {
-    font-size: 10px;
+    font-size: 14px;
     margin-left: -20px;
   }
 
@@ -626,6 +626,11 @@ a {
     border-radius: 25px;
   }
 
+  .websiteImage {
+    width: 300px;
+    height: 300px;
+  }
+
   .resumeSection {
     display: flex;
     flex-direction: column-reverse;
@@ -649,7 +654,7 @@ a {
 
   .resumeText {
     width: 100%;
-    margin: auto;
+    margin: 0 10% 50px 10%;
   }
 
   .icon-bar {
@@ -694,8 +699,8 @@ a {
   }
 
   .myImage {
-    height: 200px;
-    width: 150px;
+    height: 300px;
+    width: 250px;
   }
 
   .myVideo {
@@ -719,5 +724,10 @@ a {
     height: 400px;
     perspective: 1000px;
     border-radius: 25px;
+  }
+
+  .websiteImage {
+    width: 400px;
+    height: 400px;
   }
 }
