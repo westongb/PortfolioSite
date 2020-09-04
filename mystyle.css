@@ -602,7 +602,7 @@ a {
 @media (max-device-width: 650px) {
 
     .aboutMe{
-        display: inline;
+        flex-direction: column-reverse;
     }
   .aboutText {
     font-size: 18px;
