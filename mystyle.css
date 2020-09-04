@@ -707,6 +707,17 @@ a{
         margin: auto;
     }
 
+    .icon-bar {
+        position: fixed;
+        top: 50%;
+        width: 20%;
+        height: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+
+
 }
 
 @media(max-device-width: 460px){
