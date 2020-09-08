@@ -162,7 +162,7 @@ a {
 }
 
 .resumeTextBox {
-  width: 40%;
+  width: 50%;
   margin-top: 50px;
   margin-left: 10%;
   font-size: 20%;
@@ -917,7 +917,7 @@ a {
   }
 
   .resumeTextBox {
-    width: 100%;
+    width: 90%;
     margin-top: 0px;
     font-size: 20%;
     animation-duration: 1s;
