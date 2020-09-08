@@ -858,8 +858,8 @@ a {
     }
   .aboutText {
     font-size: 25px;
-    margin-left: 0px;
-    width: 100%;
+    margin-left: 5%;
+    width: 95%;
   }
 
   .myImage {
@@ -917,7 +917,7 @@ a {
   .resumeText {
     width: 80%;
     margin: 0 10% 50px 10%;
-    
+    font-size: 18px;
   }
 
   .icon-bar {
@@ -979,8 +979,8 @@ a {
   }
 .aboutText {
   font-size: 25px;
-  margin-left: 0px;
-  width: 100%;
+  margin-left: 5%;
+  width: 95%;
 }
 
 .myImage {
@@ -1035,7 +1035,7 @@ a {
 }
 
 .resumeText {
-  
+  font-size: 18px;
   margin: 0 10% 50px 10%;
 }
 
