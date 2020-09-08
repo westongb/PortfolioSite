@@ -152,6 +152,10 @@ a {
   width: 300px;
 }
 
+.resumeLink{
+
+}
+
 .resume {
   display: flex;
   height: 600px;
@@ -159,6 +163,8 @@ a {
   justify-content: center;
   margin-left: -10%;
   margin-right: -10%;
+  border: solid;
+  border-color: black;
 }
 
 .resumeTextBox {
@@ -449,13 +455,16 @@ a {
     font-size: 20px;
   }
 
+
+
   .resume {
     display: flex;
     height: 500px;
-    width: 300px;
+    width: 350px;
     justify-content: center;
     margin-left: -10%;
     margin-right: 10%;
+  
   }
 
   .myImage {
