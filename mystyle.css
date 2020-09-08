@@ -856,6 +856,11 @@ a {
         padding-left: 20;
         padding-right: 0;
     }
+
+    .aboutTitle{
+      margin-left: 10%;
+    }
+
   .aboutText {
     font-size: 25px;
     margin-left: 5%;
@@ -977,6 +982,12 @@ a {
       padding-left: 20;
       padding-right: 0;
   }
+
+  .aboutTitle{
+    margin-left: 10%;
+  }
+
+
 .aboutText {
   font-size: 25px;
   margin-left: 5%;
@@ -1080,6 +1091,11 @@ a {
 
 
 @media (max-device-width: 460px) {
+
+  .aboutTitle{
+    margin-left: 10%;
+  }
+
   .aboutText {
     font-size: 25px;
     margin-left: 5%;
