@@ -782,7 +782,7 @@ a {
 }
 }
 
-@media (max-device-width: 650px) {
+@media (max-device-width: 750px) {
 .resumeSection {
   display: flex;
   flex-direction: column-reverse;
@@ -793,12 +793,12 @@ a {
 }
 
 .myImage {
-  height: 350px;
-  width: 300px;
+  height: 250px;
+  width: 210px;
 }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   .resumeSection {
     display: flex;
     flex-direction: column-reverse;
@@ -809,8 +809,8 @@ a {
   }
 
   .myImage {
-    height: 350px;
-    width: 300px;
+    height: 250px;
+    width: 210px;
   }
   }
 
