@@ -433,7 +433,131 @@ a {
     font-size: 17px;
   }
   .description {
-    margin-top: 0px;
+    margin-top: -10%;
+    margin-left: 0px;
+    width: 60%;
+  }
+
+  .aboutMe {
+    padding-left: 15%;
+    padding-right: 10%;
+    margin-top: -80px;
+   height: 700px;
+  }
+
+  .aboutText {
+    font-size: 16px;
+    margin-left: 0px;
+    
+  }
+
+  .resumeText {
+    margin-top: -40px;
+    font-size: 20px;
+  }
+
+
+
+  .resume {
+    display: flex;
+    height: 500px;
+    width: 350px;
+    justify-content: center;
+    margin-left: -10%;
+    margin-right: 10%;
+  
+  }
+
+  .myImage {
+    height: 400px;
+    width: 300px;
+  }
+
+  .projectTitle {
+    font-size: 45px;
+  }
+
+  .myVideo {
+    height: 500px;
+    width: 100%;
+    margin-bottom: -50px;
+  }
+
+  .displaySites {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 800px;
+  }
+
+  .websiteName {
+    font-size: 30px;
+  }
+
+  .websiteinfo {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    font-size: 18px;
+  }
+
+  .downloadButton {
+    margin-left: -10%;
+  }
+
+  .websiteLink {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+
+  .websiteImage {
+    width: 300px;
+    height: 300px;
+  }
+
+  .flip-card-front {
+    width: 300px;
+    height: 300px;
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .navLinks {
+    font-size: 18px;
+    width: 20%;
+  }
+  .title {
+    margin-left: 5%;
+    width: 50%;
+  }
+}
+
+@media (max-device-width: 1250px) {
+  .name {
+    font-size: 22px;
+    margin-bottom: -5px;
+    padding-bottom: -10px;
+  }
+
+  .job {
+    font-size: 17px;
+  }
+  .description {
+    margin-top: -10%;
     margin-left: 0px;
     width: 60%;
   }
