@@ -639,6 +639,7 @@ a {
 
   .resume {
     margin-top: 10px;
+    height: 400px;
     width: 300px;
     margin: auto;
   }
@@ -912,7 +913,10 @@ a {
     height: 1300px;
   }
 
-
+  .resume{
+    height: 396px;
+    width: 279px;  
+  }
 
   .resumeTextBox {
     width: 90%;
