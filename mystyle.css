@@ -688,6 +688,82 @@ a {
     margin-left: 13%;
   }
 }
+
+@media (max-width: 820px) {
+
+  .myVideo {
+      height: 400px;
+    
+    }
+
+
+
+  .aboutMe{
+      flex-direction: column-reverse;
+      margin-right: 0px;
+      padding-right: 0px;
+      height: 120vh;
+      width: 130%;
+  }
+
+.aboutText {
+  font-size: 35px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.description {
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 10%;
+  margin-left: -30px;
+}
+
+.myImage {
+  height: 500px;
+  width: 450px;
+  
+}
+.projectList {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flip-card {
+  margin-top: 20px;
+}
+
+.title {
+  margin-left: 5%;
+  width: 50%;
+}
+
+.resumeText {
+  margin-top: -45px;
+  font-size: 16px;
+}
+
+.resume {
+  margin-top: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+.downloadButton {
+  margin-left: 10%;
+}
+.downloadresume{
+  height: 500px;
+}
+.resumeSection {
+  margin-top: 150px;
+
+  margin-left: 13%;
+}
+}
+
 @media (max-device-width: 650px) {
 
     .description {
