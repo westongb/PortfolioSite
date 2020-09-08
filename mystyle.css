@@ -427,20 +427,20 @@ a {
     font-size: 17px;
   }
   .description {
-    margin-top: -90px;
-    margin-left: -30px;
+    margin-top: 0px;
+    margin-left: 0px;
     width: 60%;
   }
 
   .aboutMe {
-    padding-left: 25%;
+    padding-left: 15%;
     padding-right: 10%;
     margin-top: -50px;
   }
 
   .aboutText {
     font-size: 16px;
-    margin-left: -30px;
+    margin-left: 0px;
   }
 
   .resumeText {
@@ -539,11 +539,16 @@ a {
   .aboutText {
     font-size: 14px;
   }
+  .aboutMe {
+    padding-left: 15%;
+    padding-right: 0%;
+    margin-top: -50px;
+  }
 
   .description {
-    width: 100%;
+    width: 90%;
     margin-top: 0px;
-    margin-right: 10%;
+    margin-right: 0%;
     margin-left: -30px;
   }
 
@@ -900,10 +905,10 @@ a {
 @media (max-width: 650px) {
 
   .description {
-      width: 100%;
+      width: 90%;
     margin-top: 0px;
     margin-right: 10%;
-    margin-left: -30px;
+    margin-left: 0px;
   }
 
   .aboutMe{
@@ -915,7 +920,7 @@ a {
       padding-right: 0;
   }
 .aboutText {
-  font-size: 35px;
+  font-size: 18px;
   margin-left: 0px;
   width: 100%;
 }
