@@ -650,7 +650,7 @@ a {
   .resumeSection {
     margin-top: 150px;
     flex-direction: column-reverse;
-    margin-left: 0%;
+    margin-left: 5%;
   }
 }
 
@@ -725,7 +725,7 @@ a {
   .resumeSection {
     margin-top: 150px;
     flex-direction: column-reverse;
-    margin-left: 0%;
+    margin-left: 5%;
   }
 }
 
@@ -810,7 +810,7 @@ a {
   flex-direction: column-reverse;
   align-items: center;
   margin-top: 0px;
-  margin-left: 0%;
+  margin-left: 5%;
   height: 1500px;
 }
 
@@ -830,7 +830,7 @@ a {
     flex-direction: column-reverse;
     align-items: center;
     margin-top: 0px;
-    margin-left: 0%;
+    margin-left: 5%;
     height: 1500px;
   }
 
@@ -908,13 +908,11 @@ a {
     flex-direction: column-reverse;
     align-items: center;
     margin-top: 0px;
-    margin-left: 0%;
+    margin-left: 5%;
     height: 1300px;
   }
 
-  .resumeSection {
-    margin-top: 0px;
-  }
+
 
   .resumeTextBox {
     width: 90%;
