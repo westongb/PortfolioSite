@@ -160,3 +160,74 @@ p {
 .dividerspace2{
   height: 25px;
 }
+
+
+@media (max-device-width: 1350px) {
+  .image-columns:hover {
+    margin: 50px 2% 0 5%;
+  }
+
+  .image-columns:hover .columnText {
+    width: 70%;
+    padding: 1% 2% 1% 2%;
+    border: solid black;
+  }
+
+}
+
+@media (max-width: 1350px) {
+
+  .image-columns:hover {
+    margin: 50px 2% 0 5%;
+  }
+
+  .image-columns:hover .columnText {
+    width: 70%;
+    padding: 1% 2% 1% 2%;
+    border: solid black;
+  }
+  
+}
+
+@media (max-device-width: 1020px) {
+  .columnText p {
+    font-size: 80%;
+  }
+
+}
+
+@media (max-width: 1020px) {
+  .columnText p {
+    font-size: 80%;
+  }
+}
+
+@media (max-device-width: 850px) {
+
+
+}
+
+@media (max-width: 850px) {
+
+  
+}
+
+@media (max-device-width: 650px) {
+
+
+}
+
+@media (max-width: 650px) {
+
+  
+}
+
+@media (max-device-width: 550px) {
+
+
+}
+
+@media (max-width: 550px) {
+
+  
+}
