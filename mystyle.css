@@ -792,6 +792,10 @@ a {
   height: 1500px;
 }
 
+.aboutMe{
+  height: 1800px;
+}
+
 .myImage {
   height: 250px;
   width: 210px;
@@ -806,6 +810,10 @@ a {
     margin-top: 0px;
     margin-left: 0%;
     height: 1500px;
+  }
+
+  .aboutMe{
+    height: 1800px;
   }
 
   .myImage {
