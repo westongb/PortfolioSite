@@ -783,6 +783,28 @@ a {
 }
 
 @media (max-device-width: 650px) {
+.resumeSection {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 0%;
+  height: 1500px;
+}
+}
+
+@media (max-width: 650px) {
+  .resumeSection {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 0%;
+    height: 1500px;
+  }
+  }
+
+@media (max-device-width: 650px) {
 
     .description {
         width: 100%;
