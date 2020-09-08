@@ -791,6 +791,11 @@ a {
   margin-left: 0%;
   height: 1500px;
 }
+
+.myImage {
+  height: 350px;
+  width: 300px;
+}
 }
 
 @media (max-width: 650px) {
@@ -801,6 +806,11 @@ a {
     margin-top: 0px;
     margin-left: 0%;
     height: 1500px;
+  }
+
+  .myImage {
+    height: 350px;
+    width: 300px;
   }
   }
 
@@ -828,8 +838,8 @@ a {
   }
 
   .myImage {
-    height: 450px;
-    width: 395px;
+    height: 350px;
+    width: 300px;
   }
 
   .myVideo {
