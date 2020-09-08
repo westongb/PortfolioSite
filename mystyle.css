@@ -542,7 +542,7 @@ a {
   .aboutMe {
     padding-left: 15%;
     padding-right: 0%;
-    margin-top: -50px;
+    margin-top: -10px;
   }
 
   .description {
@@ -555,7 +555,7 @@ a {
   .myImage {
     height: 500px;
     width: 450px;
-    transform: translateY(-150px);
+    transform: translateY(-80px);
   }
 }
 
@@ -573,7 +573,7 @@ a {
         margin-right: 0px;
         padding-right: 0px;
         height: 120vh;
-        width: 130%;
+        width: 100%;
     }
 
   .aboutText {
@@ -592,7 +592,7 @@ a {
   .myImage {
     height: 500px;
     width: 450px;
-    transform: translateY(-150px);
+    transform: translateY(-80px);
   }
   .projectList {
     display: flex;
@@ -646,7 +646,7 @@ a {
         margin-right: 0px;
         padding-right: 0px;
         height: 120vh;
-        width: 130%;
+        width: 100%;
     }
 
   .aboutText {
@@ -721,11 +721,11 @@ a {
       margin-right: 0px;
       padding-right: 0px;
       height: 120vh;
-      width: 130%;
+      width: 100%;
   }
 
 .aboutText {
-  font-size: 25px;
+  font-size: 18px;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -738,8 +738,8 @@ a {
 }
 
 .myImage {
-  height: 500px;
-  width: 450px;
+  height: 400px;
+  width: 350px;
   
 }
 .projectList {
@@ -800,7 +800,7 @@ a {
         padding-right: 0;
     }
   .aboutText {
-    font-size: 35px;
+    font-size: 25px;
     margin-left: 0px;
     width: 100%;
   }
