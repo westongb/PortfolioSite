@@ -978,7 +978,7 @@ a {
       padding-right: 0;
   }
 .aboutText {
-  font-size: 18px;
+  font-size: 25px;
   margin-left: 0px;
   width: 100%;
 }
@@ -1081,13 +1081,13 @@ a {
 
 @media (max-device-width: 460px) {
   .aboutText {
-    font-size: 18px;
+    font-size: 25px;
     margin-left: -20px;
   }
 
   .myImage {
-    height: 300px;
-    width: 250px;
+    height: 400px;
+  width: 350px;
   }
 
   .myVideo {
@@ -1121,12 +1121,12 @@ a {
 
 @media (max-width: 550px) {
   .aboutText {
-    font-size: 18px;
+    font-size: 25px;
     
   }
   .myImage {
-    height: 250px;
-    width: 220px;
+    height: 400px;
+    width: 350px;
   }
   .resumeText {
     font-size: 18px;
@@ -1140,12 +1140,12 @@ a {
 
 @media (max-device-width: 550px) {
   .aboutText {
-    font-size: 18px;
+    font-size: 25px;
     
   }
   .myImage {
-    height: 250px;
-    width: 220px;
+    height: 400px;
+  width: 350px;
   }
   .resumeText {
     font-size: 18px;
