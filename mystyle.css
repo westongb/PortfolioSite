@@ -979,7 +979,7 @@ a {
   }
 .aboutText {
   font-size: 25px;
-  margin-left: 5%;
+  margin-left: -5%;
   width: 95%;
 }
 
@@ -1082,7 +1082,7 @@ a {
 @media (max-device-width: 460px) {
   .aboutText {
     font-size: 25px;
-    margin-left: -20px;
+    margin-left: -10px;
   }
 
   .myImage {
