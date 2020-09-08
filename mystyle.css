@@ -685,7 +685,7 @@ a {
 
   .resumeText {
     margin-top: -45px;
-    font-size: 16px;
+    font-size: 22px;
   }
 
   .resume {
@@ -760,7 +760,7 @@ a {
 
 .resumeText {
   margin-top: -45px;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .resume {
@@ -794,7 +794,7 @@ a {
     .aboutMe{
         flex-direction: column-reverse;
         width: 100%;
-        height: 1000px;
+        height: 1500px;
         margin-right: 0%;
         padding-left: 20;
         padding-right: 0;
@@ -806,8 +806,8 @@ a {
   }
 
   .myImage {
-    height: 550px;
-    width: 475px;
+    height: 450px;
+    width: 395px;
   }
 
   .myVideo {
@@ -842,7 +842,7 @@ a {
     align-items: center;
     margin-top: 0px;
     margin-left: 0%;
-    height: 800px;
+    height: 1300px;
   }
 
   .resumeSection {
@@ -860,6 +860,7 @@ a {
   .resumeText {
     width: 80%;
     margin: 0 10% 50px 10%;
+    
   }
 
   .icon-bar {
@@ -914,7 +915,7 @@ a {
   .aboutMe{
       flex-direction: column-reverse;
       width: 100%;
-      height: 1000px;
+      height: 1500px;
       margin-right: 0%;
       padding-left: 20;
       padding-right: 0;
@@ -926,8 +927,8 @@ a {
 }
 
 .myImage {
-  height: 550px;
-  width: 475px;
+  height: 450px;
+  width: 395px;
 }
 
 .myVideo {
@@ -962,7 +963,7 @@ a {
   align-items: center;
   margin-top: 0px;
   margin-left: 0%;
-  height: 800px;
+  height: 1300px;
 }
 
 .resumeSection {
