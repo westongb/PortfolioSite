@@ -628,12 +628,13 @@ a {
   }
 
   .resumeTextBox{
-    width: 100%;
+    width: 90%;
   }
 
     .resumeText {
     margin-top: -45px;
     font-size: 16px;
+    margin-left: 10%;
   }
 
   .resume {
