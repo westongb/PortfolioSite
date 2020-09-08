@@ -797,8 +797,8 @@ a {
 }
 
 .myImage {
-  height: 250px;
-  width: 210px;
+  height: 350px;
+  width: 300px;
 }
 }
 
@@ -817,8 +817,8 @@ a {
   }
 
   .myImage {
-    height: 250px;
-    width: 210px;
+    height: 350px;
+    width: 300px;
   }
   }
 
@@ -967,8 +967,8 @@ a {
 }
 
 .myImage {
-  height: 450px;
-  width: 395px;
+  height: 350px;
+  width: 300px;
 }
 
 .myVideo {
@@ -1013,13 +1013,12 @@ a {
 .resumeTextBox {
   width: 80%;
   margin-top: 00px;
-  font-size: 20%;
   animation-duration: 1s;
   animation-name: slidein;
 }
 
 .resumeText {
-  width: 80%;
+  
   margin: 0 10% 50px 10%;
 }
 
@@ -1101,4 +1100,42 @@ a {
     width: 400px;
     height: 400px;
   }
+}
+
+@media (max-width: 550px) {
+  .aboutText {
+    font-size: 18px;
+    
+  }
+  .myImage {
+    height: 250px;
+    width: 220px;
+  }
+  .resumeText {
+    font-size: 18px;
+  }
+
+  .resumeSection {
+   height: 1100px;
+  }
+
+}
+
+@media (max-device-width: 550px) {
+  .aboutText {
+    font-size: 18px;
+    
+  }
+  .myImage {
+    height: 250px;
+    width: 220px;
+  }
+  .resumeText {
+    font-size: 18px;
+  }
+
+  .resumeSection {
+   height: 1100px;
+  }
+
 }
