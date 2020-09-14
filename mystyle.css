@@ -325,7 +325,7 @@ a:hover{
   display: flex;
   justify-content: center;
   font-size: 85px;
-  color: #423f26;
+  color: #364156;
   text-decoration: underline;
 }
 
@@ -338,7 +338,7 @@ a:hover{
 .contactForm {
   height: 400px;
   width: 500px;
-  border: #423f26;
+  border: #364156;
   border-style: solid;
   padding-left: 15px;
   padding-right: 15px;
