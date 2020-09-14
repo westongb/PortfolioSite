@@ -1,5 +1,5 @@
 .navigationbar {
-  background: linear-gradient(to left, #6c4f3a, #48240a);
+  background: linear-gradient(to left, #364156, #364156);
   height: 70px;
   display: flex;
   width: 100%;
@@ -11,6 +11,10 @@
   position: -webkit-sticky;
   top: 0px;
   z-index: 3;
+}
+
+body{
+  
 }
 
 .firstSection {
@@ -26,13 +30,13 @@
   margin-top: 8px;
   margin-bottom: -10px;
   padding-bottom: -20px;
-  color: #007bff;
+  color: #D4B483;
 }
 
 .job {
   margin-bottom: -20px;
   padding-bottom: -20px;
-  color: #007bff;
+  color: #D4B483;
 }
 
 .bannerImage {

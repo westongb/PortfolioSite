@@ -1,5 +1,5 @@
 .navigationbar {
-  background: linear-gradient(to left, #6c4f3a, #48240a);
+  background: linear-gradient(to left, #364156, #364156);
   height: 70px;
   display: flex;
   width: 100%;
@@ -28,45 +28,64 @@ a {
   font-family: Cambria;
 }
 .navLinks {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 20px;
-  padding-right: 0px;
-  font-size: 160%;
-  color: rgb(86, 135, 248);
-  width: 30%;
+  float: left;
+  display: block;
+  color: #D4B483;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 a {
-  color: #007bff;
+  color: #D4B483;
 }
 
-.navlink:hover {
-  color: wheat;
+a:hover{
+  color: #8DB8F9
+}
+
+.navLink:hover {
+  color: #D4B483;
+}
+
+.navLink:hover a{
+  color: #8DB8F9;
+}
+
+.navLink:focus {
+  color: #D4B483;
+}
+
+.icon{
+  display: none;
+  color: #D4B483;
 }
 
 .title {
   margin-left: 5%;
-  width: 70%;
+  width: 50%;
 }
 
 .name {
   margin-top: 8px;
   margin-bottom: -10px;
   padding-bottom: -20px;
-  color: #007bff;
+  color: #D4B483;
 }
 
 .job {
   margin-bottom: -20px;
   padding-bottom: -20px;
-  color: #007bff;
+  color: #D4B483;
 }
 
 .navlink {
   margin-left: 20px;
   margin-right: 20px;
 }
+
+
 .myVideo {
   height: 600px;
   width: 100%;
@@ -81,7 +100,7 @@ a {
   padding-left: 15%;
   padding-right: 15%;
 
-  background: linear-gradient(to left, wheat, #dfc26e);
+  background: linear-gradient(to left, #D4B483, #D4B483);
   border-radius: 10px;
   margin-top: -50px;
 }
@@ -193,7 +212,7 @@ a {
 }
 
 .projects {
-  background-color: #007bff;
+  background-color: #8DB8F9;
   margin-bottom: 100px;
   padding-bottom: 100px;
   padding-top: 100px;
@@ -228,7 +247,7 @@ a {
 }
 
 .displaySites:hover {
-  background-color: wheat;
+  background-color: #214E34;
 }
 
 .flip-card {
@@ -240,7 +259,7 @@ a {
 }
 
 .websiteName {
-  color: #363321;
+  color: #D4B483;
   margin-top: 5%;
   word-wrap: break-word;
 }
@@ -253,7 +272,7 @@ a {
   margin-bottom: 0px;
   margin-left: 10px;
   margin-right: 10px;
-  color: #007bff;
+  color: #D4B483;
   word-wrap: break-word;
 }
 
@@ -289,14 +308,14 @@ a {
 }
 
 .flip-card-front {
-  background-color: wheat;
-  color: black;
+  background-color: #364156;
+  color: #D4B483;
   border-radius: 25px;
 }
 
 .flip-card-back {
-  background-color: wheat;
-  color: black;
+  background-color: #364156;
+  color: #D4B483;
   transform: rotateY(180deg);
   border-radius: 25px;
 }
@@ -341,7 +360,7 @@ a {
   position: fixed;
   top: 90%;
   left: 2%;
-  background-color: darkgray;
+  background-color: #214E34;
 }
 
 .degree {
@@ -418,11 +437,22 @@ a {
 
   .title {
     margin-left: 5%;
-    width: 60%;
+    width: 40%;
   }
 }
 
 @media (max-width: 1250px) {
+
+  .title {
+    margin-left: 5%;
+    width: 30%;
+  }
+
+  .navLinks {
+      
+  }
+
+
   .name {
     font-size: 22px;
     margin-bottom: -5px;
@@ -536,13 +566,9 @@ a {
     backface-visibility: hidden;
   }
 
-  .navLinks {
-    font-size: 18px;
-    width: 20%;
-  }
   .title {
     margin-left: 5%;
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -670,6 +696,11 @@ a {
 }
 
 @media (max-width: 1020px) {
+  .title {
+    margin-left: 5%;
+    width: 40%;
+  }
+  
   .aboutText {
     font-size: 18px;
   }
@@ -709,7 +740,49 @@ a {
 
 }
 
-@media (max-width: 850px) {
+@media screen and (max-width: 850px) {
+  
+  
+  .naveLinks {
+    background-color: #364156;
+    border-radius: 10px;
+    width: 70%;
+    flex: right;
+  }
+
+  .navLinks a:not(:first-child) {display: none;}
+  .navLinks .icon {
+    float: right;
+    display: block;
+    
+  }
+
+  .navLinks.responsive {
+    position: relative;
+    flex-direction: column;
+    background: #364156;
+    height: 160px;
+    border-radius: 10px;
+    border: solid #364156;
+  }
+
+ 
+  .navLinks.responsive .icon {
+    position: absolute;
+    display: inline;
+    right: 0;
+    top: 0;
+  }
+
+  .navLinks.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+
+
 
     .myVideo {
         height: 1000px;
@@ -757,7 +830,7 @@ a {
 
   .title {
     margin-left: 5%;
-    width: 50%;
+    width: 70%;
   }
 
   .resumeTextBox{
@@ -836,7 +909,7 @@ a {
 
   .title {
     margin-left: 5%;
-    width: 50%;
+    width: 70%;
   }
 
   .resumeText {
@@ -911,7 +984,7 @@ a {
 
 .title {
   margin-left: 5%;
-  width: 50%;
+  width: 70%;
 }
 
 .resumeText {
@@ -939,6 +1012,9 @@ a {
 }
 
 @media (max-device-width: 750px) {
+
+  
+
 .resumeSection {
   display: flex;
   flex-direction: column-reverse;
@@ -949,7 +1025,7 @@ a {
 }
 
 .aboutMe{
-  height: 1800px;
+  height: 1100px;
 }
 
 .myImage {
@@ -959,6 +1035,8 @@ a {
 }
 
 @media (max-width: 750px) {
+
+  
   .resumeSection {
     display: flex;
     flex-direction: column-reverse;
@@ -969,7 +1047,7 @@ a {
   }
 
   .aboutMe{
-    height: 1800px;
+    height: 1100px;
   }
 
   .myImage {
@@ -1001,7 +1079,7 @@ a {
     }
 
   .aboutText {
-    font-size: 25px;
+    font-size: 120%;
     margin-left: 5%;
     width: 95%;
   }
@@ -1075,25 +1153,7 @@ a {
     transform: translateY(-50%);
   }
 
-  .facebook {
 
-  }
-  
-  .linkedin {
-   
-  }
-  
-  .github {
-   
-  }
-  
-  .email {
-   
-  }
-  
-  .phone {
-   
-  }
 
   .icon-bar a {
     height: 20%;
@@ -1129,7 +1189,7 @@ a {
 
 
 .aboutText {
-  font-size: 25px;
+  font-size: 120%;
   margin-left: 5%;
   width: 95%;
 }
@@ -1200,25 +1260,6 @@ a {
   transform: translateY(-50%);
 }
 
-.facebook {
-
-}
-
-.linkedin {
- 
-}
-
-.github {
- 
-}
-
-.email {
- 
-}
-
-.phone {
- 
-}
 
 .icon-bar a {
   height: 20%;
@@ -1277,7 +1318,7 @@ a {
 
 @media (max-width: 550px) {
   .aboutText {
-    font-size: 25px;
+    font-size: 120%;
     
   }
   .myImage {
@@ -1285,7 +1326,7 @@ a {
     width: 350px;
   }
   .resumeText {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .resumeSection {
@@ -1296,7 +1337,7 @@ a {
 
 @media (max-device-width: 550px) {
   .aboutText {
-    font-size: 25px;
+    font-size: 120%;
     
   }
   .myImage {
@@ -1304,7 +1345,7 @@ a {
   width: 350px;
   }
   .resumeText {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .resumeSection {
