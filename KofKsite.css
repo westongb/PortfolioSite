@@ -121,7 +121,7 @@ body{
 
 .columnText p {
   visibility: hidden;
-  transition-delay: 1s;
+  transition-delay: .5s;
   font-size: 100%;
   font-weight: 600;
 }
